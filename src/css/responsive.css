@@ -1,0 +1,364 @@
+@media (min-width: 500px) {
+	body {
+		gap: 35px;
+	}
+
+	.dessert-template .btn-add-cart p,
+	.cart .cart-list li .informations p,
+	.cart .empty-details p,
+	.confirmed-order div p,
+	.cart-list li .carbon-neutral p {
+		font-size: 1.6rem;
+	}
+
+	body .desserts .title,
+	.confirmed-order h1 {
+		font-size: 4.2rem;
+	}
+
+	.dessert .dessert-template {
+		padding-bottom: 35px;
+	}
+
+	.dessert .dessert-template .btn-add-cart {
+		bottom: 12px;
+		border-radius: 30px;
+		padding: 15px 32px;
+	}
+
+	.dessert-template .btn-add-cart p img {
+		padding-top: 0;
+	}
+
+	.desserts-list .dessert .informations {
+		gap: 7px;
+	}
+
+	.dessert .informations .category,
+	.cart-list li .total-price p,
+	.confirmed-order .total-price p,
+	.confirmed-order .text,
+	.cart-list li .confirm-button,
+	.confirmed-order .confirm-button,
+	.confirmed-order .order-list .order .informations h2 {
+		font-size: 1.8rem;
+	}
+
+	body,
+	.confirmed-order,
+	body .cart {
+		padding: 30px;
+	}
+
+	body .cart,
+	.dessert .dessert-template picture img {
+		border-radius: 12px;
+	}
+
+	.cart .cart-title {
+		margin-bottom: 35px;
+		font-size: 2.4rem;
+	}
+
+	.cart .empty-details img,
+	.cart .empty-details p {
+		margin-bottom: 24px;
+	}
+
+	.desserts .desserts-list,
+	.dessert.ordered .dessert-template .btn-add-cart {
+		gap: 40px;
+	}
+
+	.dessert.ordered .dessert-template .btn-add-cart {
+		bottom: 20px;
+	}
+
+	.cart .cart-list li,
+	.confirmed-order .order-list .order {
+		border-bottom: 2px solid var(--Rose-100);
+		padding: 18px 0;
+	}
+
+	.cart .cart-list li .informations,
+	.confirmed-order li .informations {
+		padding: 7px 0;
+	}
+
+	.confirmed-order div p,
+	.cart-list li .carbon-neutral p img,
+	.dessert-template .btn-add-cart p img {
+		padding-right: 10px;
+	}
+
+	.cart-list li .informations p.quantity,
+	.confirmed-order .informations p.quantity {
+		padding-right: 12px;
+	}
+
+	.confirmed-order p.all-price,
+	.dessert .informations .name,
+	.dessert .informations .price {
+		font-size: 2rem;
+	}
+
+	.dessert.ordered .dessert-template .btn-add-cart a,
+	.cart .cart-list li .remove-icon,
+	.confirmed-order .confirmation-icon,
+	.dessert-template .btn-add-cart p img {
+		scale: 1.2;
+	}
+
+	.confirmed-order .confirmation-icon {
+		margin: 20px 0;
+	}
+
+	.cart .cart-list li:last-child {
+		gap: 30px;
+	}
+
+	.cart .cart-list li .total-price,
+	.confirmed-order .total-price,
+	.dessert.ordered .dessert-template .btn-add-cart {
+		padding: 12px;
+	}
+
+	.cart-list li .total-price h2 {
+		font-size: 2.5rem;
+	}
+
+	.cart .cart-list li .carbon-neutral {
+		border-radius: 20px;
+		padding: 20px 25px;
+	}
+
+	.confirmed-order .order-list .confirmed-order {
+		border-radius: 12px 12px 0 0;
+	}
+
+	.confirmed-order {
+		top: 100px;
+		transform: translateY(-100px);
+	}
+
+	.confirmed-order h1 {
+		margin-bottom: 7px;
+	}
+
+	.confirmed-order .text,
+	body .desserts .title {
+		margin-bottom: 30px;
+	}
+
+	.cart-list li .confirm-button,
+	.confirmed-order .confirm-button {
+		padding: 22px;
+	}
+
+	.confirmed-order .order-list,
+	.confirmed-order .total-price {
+		padding: 24px;
+	}
+
+	.confirmed-order .order-list {
+		padding-bottom: 0;
+	}
+
+	.confirmed-order .total-price {
+		margin-bottom: 40px;
+		border-radius: 0 0 12px 12px;
+	}
+
+	.confirmed-order .order-list .order img {
+		height: 60px;
+		border-radius: 7px;
+	}
+
+	.confirmed-order .order-list .order .informations {
+		gap: 12px;
+		margin-left: 12px;
+		margin-right: auto;
+	}
+
+	.confirmed-order .total-price {
+		padding-bottom: 30px;
+	}
+
+	.confirmed-order .total-price h2 {
+		font-size: 3.2rem;
+	}
+
+	.confirmed-order button {
+		padding: 12px 0;
+	}
+}
+
+@media (min-width: 1000px) {
+	body {
+		flex-direction: row;
+	}
+
+	body .cart {
+		max-height: max-content;
+	}
+
+	.desserts .desserts-list {
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+
+	.desserts .desserts-list {
+		gap: 25px;
+	}
+
+	.dessert.ordered .dessert-template .btn-add-cart {
+		gap: 35px;
+	}
+
+	.confirmed-order {
+		max-height: 700px;
+		height: auto;
+		width: 45%;
+		top: 50%;
+		left: 50%;
+		transform: translateY(0);
+		translate: -50% -50%;
+		margin-top: 0;
+		border-radius: 12px;
+		padding: 20px 25px;
+	}
+
+	.confirmed-order h1 {
+		font-size: 3rem;
+	}
+
+	.confirmed-order .text {
+		margin-bottom: 15px;
+	}
+
+	.confirmed-order .confirmation-icon {
+		margin: 0 0 15px;
+		scale: 1;
+	}
+
+	.confirmed-order .order-list {
+		padding: 20px;
+		padding-bottom: 10px;
+		max-height: 350px;
+		overflow: auto;
+	}
+
+	.confirmed-order .order-list .order {
+		padding: 15px 0;
+	}
+
+	.confirmed-order .order-list .order img {
+		height: 40px;
+	}
+
+	.order-list .order .informations h2 {
+		font-size: 1.5rem;
+	}
+
+	.confirmed-order p.all-price {
+		font-size: 1.8rem;
+	}
+
+	.confirmed-order .total-price {
+		padding: 20px;
+		margin-bottom: 10px;
+	}
+
+	.confirmed-order .total-price h2 {
+		font-size: 2.8rem;
+	}
+}
+
+@media (min-width: 1400px) {
+	body {
+		padding: 75px;
+		gap: 20px;
+	}
+
+	body .desserts {
+		max-width: 900px;
+	}
+
+	.desserts .desserts-list {
+		gap: 30px;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 30%));
+	}
+
+	body .cart {
+		max-width: 30%;
+		width: 100%;
+	}
+
+	.confirmed-order {
+		max-height: 900px;
+		height: auto;
+		width: 45%;
+		top: 50%;
+		left: 50%;
+		transform: translateY(0);
+		translate: -50% -50%;
+		margin-top: 0;
+		border-radius: 12px;
+		padding: 35px 40px;
+		overflow: auto;
+	}
+
+	.confirmed-order h1 {
+		font-size: 4.2rem;
+	}
+
+	.confirmed-order .text {
+		margin-bottom: 30px;
+	}
+
+	.confirmed-order .confirmation-icon {
+		margin: 20px 0;
+		scale: 1.2;
+	}
+
+	.confirmed-order .order-list {
+		padding-bottom: 0;
+	}
+
+	.confirmed-order .order-list,
+	.confirmed-order .total-price {
+		padding: 24px;
+	}
+
+	.confirmed-order .order-list .order {
+		padding: 18px 0;
+	}
+
+	.confirmed-order .order-list .order img {
+		height: 60px;
+	}
+
+	.order-list .order .informations h2 {
+		font-size: 1.8rem;
+	}
+
+	.confirmed-order p.all-price {
+		font-size: 2rem;
+	}
+
+	.confirmed-order .total-price {
+		padding-bottom: 30px;
+		margin-bottom: 40px;
+	}
+
+	.confirmed-order .total-price h2 {
+		font-size: 3.2rem;
+	}
+
+	.confirmed-order .confirm-button {
+		padding: 25px;
+		font-size: 2.4rem;
+	}
+}
+
+/* @media (min-width: 1650px) {
+} */
