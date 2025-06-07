@@ -11,6 +11,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	gap: 30px;
 	padding: 25px;
 	background-color: var(--Rose-50);
@@ -23,6 +24,7 @@ body.confirmed .desserts {
 }
 
 .desserts {
+	max-width: 400px;
 	width: 100%;
 }
 
@@ -31,7 +33,7 @@ body.confirmed .desserts {
 	font-size: 4rem;
 }
 
-.desserts .desserts-list {
+.desserts-list {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
@@ -39,12 +41,12 @@ body.confirmed .desserts {
 	gap: 25px;
 }
 
-.desserts-list .dessert {
+.dessert {
 	max-width: 500px;
 	width: 100%;
 }
 
-.dessert .dessert-template {
+.dessert-template {
 	max-width: 100%;
 	width: 100%;
 	display: flex;
@@ -113,6 +115,7 @@ body.confirmed .desserts {
 }
 
 .cart {
+	max-width: 750px;
 	min-width: 300px;
 	border-radius: 10px;
 	padding: 25px;
@@ -184,7 +187,7 @@ body.confirmed .desserts {
 }
 
 .cart-list li:first-child,
-.confirmed-order .order-list .order:first-child {
+.order-list .order:first-child {
 	padding-top: 0;
 }
 
@@ -303,36 +306,35 @@ body.confirmed .desserts {
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	display: flex;
-	place-items: center;
+	display: none;
+	justify-content: center;
+	align-items: center;
 	background-color: rgba(0, 0, 0, 0.5);
 	z-index: 10;
-	display: none;
 	opacity: 0;
 	transition: opacity 0.3s ease-in-out;
 }
 
 body.confirmed .overlay {
-	display: block;
+	display: flex;
 	opacity: 1;
 }
 
 .confirmed-order {
-	height: 90vh;
 	width: 100vw;
-	position: absolute;
-	left: 0;
-	top: 90px;
-	margin-top: 100px;
+	height: 90vh;
+	position: relative;
+	margin: auto;
 	border-radius: 10px 10px 0 0;
 	padding: 25px;
 	background-color: #fff;
-	transform: translateY(-90px);
+	transform: none;
 	transition: 0.3s ease-in-out;
 	overflow: auto;
+	top: 0;
 }
 
-.confirmed-order .confirmation-icon {
+.confirmation-icon {
 	margin-bottom: 20px;
 }
 
@@ -416,7 +418,7 @@ body.confirmed .overlay {
 /* Hover */
 
 .btn-add-cart:hover {
-	border-color: var(--Red);
+	border: 1px solid var(--Red);
 	color: var(--Red);
 }
 
