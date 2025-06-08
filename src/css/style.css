@@ -193,6 +193,7 @@ body.confirmed .desserts {
 
 .cart-list li .total-price {
 	flex-direction: row;
+	align-items: center;
 	justify-content: space-between;
 }
 
@@ -220,7 +221,7 @@ body.confirmed .desserts {
 	display: inline;
 	width: max-content;
 	padding-right: 7px;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	font-weight: 600;
 }
 
@@ -238,6 +239,7 @@ body.confirmed .desserts {
 }
 
 .confirmed-order p.all-price {
+	padding-left: 4px;
 	font-size: 1.8rem;
 	color: var(--Rose-900);
 }
@@ -265,6 +267,7 @@ body.confirmed .desserts {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 	padding: 10px;
 	color: var(--Rose-900);
 	padding-bottom: 25px;
@@ -279,7 +282,7 @@ body.confirmed .desserts {
 }
 
 .confirmed-order .total-price h2 {
-	font-size: 3rem;
+	font-size: 2.2rem;
 }
 
 .carbon-neutral {
@@ -324,40 +327,40 @@ body.confirmed .overlay {
 	width: 100vw;
 	height: 90vh;
 	position: relative;
-	margin: auto;
+	top: 0;
+	margin: auto 0 0;
 	border-radius: 10px 10px 0 0;
-	padding: 25px;
+	padding: 25px 20px;
 	background-color: #fff;
 	transform: none;
 	transition: 0.3s ease-in-out;
 	overflow: auto;
-	top: 0;
 }
 
 .confirmation-icon {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .confirmed-order h1 {
 	margin-bottom: 5px;
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 
 .confirmed-order .text {
-	margin-bottom: 35px;
-	font-size: 1.6rem;
+	margin-bottom: 25px;
+	font-size: 1.5rem;
 	color: var(--Rose-400);
 }
 
 .confirm-button {
 	width: 100%;
 	border: none;
-	border-radius: 30px;
+	border-radius: 40px;
 	padding: 20px;
 	background-color: var(--Red);
 	color: #fff;
 	text-align: center;
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	cursor: pointer;
 	transition: 0.3s ease-in-out;
 }
@@ -382,7 +385,7 @@ body.confirmed .overlay {
 }
 
 .order-list .order img {
-	height: 50px;
+	height: 40px;
 	border-radius: 5px;
 }
 
@@ -391,12 +394,13 @@ body.confirmed .overlay {
 }
 
 .order-list .order .informations {
-	max-width: 55%;
+	max-width: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 10px;
-	margin: 0 10px;
+	margin-left: 10px;
+	margin-right: auto;
 }
 
 .order-list .order .informations h2 {
@@ -404,15 +408,15 @@ body.confirmed .overlay {
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 }
 
 .order-list .order .informations div {
 	display: inline;
 }
 
-.confirmed-order button {
-	padding: 10px 0;
+.confirmed-order .total-price {
+	margin-bottom: 20px;
 }
 
 /* Hover */
